@@ -1,10 +1,3 @@
-# go-mihoyo
-Simple Go library for parsing MihoYo Launcher SDK
-
-Usage:
-
-
-```Go
 package main
 
 import (
@@ -32,5 +25,3 @@ func main() {
 	fmt.Printf("Parsed response: %+v\n", response.Data.GamePackages)
 	fmt.Println("Done")
 }
-
-```
